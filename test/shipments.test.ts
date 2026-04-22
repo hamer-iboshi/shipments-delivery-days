@@ -11,7 +11,9 @@ describe('Shipment Service', () => {
     });
 
     afterAll(async () => {
-        await shipmentService.resetShipments();
+        const req = {} as unknown as Request;
+        const mockResponse = {json: jest.fn()}
+        await shipmentService.resetShipments(req, mockResponse as unknown as Response);
     });
 
     it('should create a shipment successfully', async () => {

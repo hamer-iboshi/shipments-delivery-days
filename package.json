@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/server.ts",
-    "start": "ts-node src/server.ts",
+    "start": "node dist/server.js",
     "test": "NODE_ENV=test jest",
-    "watch": "tsc src/server.ts --watch"
+    "watch": "tsc src/server.ts --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",

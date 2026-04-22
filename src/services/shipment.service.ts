@@ -55,8 +55,9 @@ export class ShipmentService {
         return res.json(result);
     }
     
-    async resetShipments() {
+    async resetShipments(req: Request, res: Response) {
         const shipmentsRepository = new ShipmentsRepository();
         await shipmentsRepository.resetShipments();
+        return res.json({ message: 'Shipments reset successfully' });
     }
 }
