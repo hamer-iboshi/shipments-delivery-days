@@ -18,6 +18,7 @@ DELETE /shipments/reset
 ## Note
 
 For this project, I limited origin and destination to 10 US states: ```["California","Texas","Florida","New York","Pennsylvania","Illinois","Ohio","Georgia","North Carolina"];```.
+
 I got from Gemini a list of driving distances in kilometers between major metropolitan hubs in each state (e.g., NYC for New York, LA for California, Chicago for Illinois.
  ```src/files/distances.json````
 
