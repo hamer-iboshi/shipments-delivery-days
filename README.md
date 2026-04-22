@@ -29,13 +29,18 @@ Available shipping status to update status: ```["Pending", "In Transit", "Delive
 
 Clone the repository:
 
-```git clone git@github.com:hamer-iboshi/shipments-delivery-days.git```
+```git clone https://github.com/hamer-iboshi/shipments-delivery-days.git```
 
 Change directory to the repository:
 
 ```cd shipments-delivery-days/```
 
-Use [npm](https://www.npmjs.com/get-npm) to install the packages or [yarn](https://yarnpkg.com/en/docs/install) .
+Use [npm](https://www.npmjs.com/get-npm) to install the packages or [yarn](https://yarnpkg.com/en/docs/install) . 
+
+Install [nvm](https://www.nvmnode.com/guide/download.html) and node24
+```nvm install 24```
+
+```nvm use```
 
 ```npm install```
 
